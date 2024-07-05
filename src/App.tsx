@@ -42,13 +42,6 @@ function App() {
         ],
     })
 
-
-    // const removeTask = (todolistID: string ,taskId: string) => {
-    //     setTasks({...tasks, [todolistID]: tasks[todolistID].filter(task => {return task.id !== taskId})})
-    //         // tasks.filter((task) => {
-    //         // return task.id !== taskId
-    //
-    // }
     const removeTask = (todolistId : string, taskId: string) => {
         // 1. Найдем таски для тудулиста, в котором будет происходить удаление
         const todolistTasks = tasks[todolistId]
