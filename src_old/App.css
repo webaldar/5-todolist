@@ -6,10 +6,8 @@
 .App > div {
   margin-right: 50px;
 }
-.todolist-title {
+.flex-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .error {
   border: red 1px solid;

@@ -6,7 +6,11 @@
 .App > div {
   margin-right: 50px;
 }
-
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .error {
   border: red 1px solid;
 }
